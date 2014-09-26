@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="SwappingRupees(failed)">
+    <classes>
+      <class name="TestClasses.SwappingRupees">
+        <methods>
+          <include name="intialize"/>
+          <include name="Test6"/>
+        </methods>
+      </class> <!-- TestClasses.SwappingRupees -->
+      <class name="TestClasses.SliderBarChecking">
+        <methods>
+          <include name="f1"/>
+        </methods>
+      </class> <!-- TestClasses.SliderBarChecking -->
+      <class name="TestClasses.EnteringDataFromxls">
+        <methods>
+          <include name="f1"/>
+        </methods>
+      </class> <!-- TestClasses.EnteringDataFromxls -->
+      <class name="TestClasses.HeaderLinks">
+        <methods>
+          <include name="f1"/>
+        </methods>
+      </class> <!-- TestClasses.HeaderLinks -->
+      <class name="TestClasses.FooterLinks">
+        <methods>
+          <include name="f1"/>
+        </methods>
+      </class> <!-- TestClasses.FooterLinks -->
+      <class name="TestClasses.UserLogin">
+        <methods>
+          <include name="f1"/>
+        </methods>
+      </class> <!-- TestClasses.UserLogin -->
+    </classes>
+  </test> <!-- SwappingRupees(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

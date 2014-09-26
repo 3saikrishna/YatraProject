@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1">
+  <test name="HeaderLinkin">
+    <classes>
+       <class name="TestClasses.HeaderLinks" />
+            
+    </classes>
+  </test>
+  <test name="FooterLinks">
+    <classes>
+       <class name="TestClasses.FooterLinks" />
+            
+    </classes>
+  </test>
+  <test name="usersignin">
+    <classes>
+       <class name="TestClasses.UserLogin" />
+            
+    </classes>
+  </test>
+  <test name="Datafrom xls">
+    <classes>
+       <class name="TestClasses.EnteringDataFromxls" />
+            
+    </classes>
+  </test>
+  <test name="sliderbar">
+    <classes>
+       <class name="TestClasses.SliderBarChecking" />
+            
+    </classes>
+  </test>
+   <test name="SwappingRupees">
+    <classes>
+       <class name="TestClasses.SwappingRupees" />
+            
+    </classes>
+  </test>
+  
+ </suite>
